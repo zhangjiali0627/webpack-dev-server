@@ -314,9 +314,6 @@
     "publicPath": {
       "type": "string"
     },
-    "requestCert": {
-      "type": "boolean"
-    },
     "serveIndex": {
       "type": "boolean"
     },
@@ -428,7 +425,6 @@
       "proxy": "should be {Object|Array} (https://webpack.js.org/configuration/dev-server/#devserverproxy)",
       "public": "should be {String} (https://webpack.js.org/configuration/dev-server/#devserverpublic)",
       "publicPath": "should be {String} (https://webpack.js.org/configuration/dev-server/#devserverpublicpath-)",
-      "requestCert": "should be {Boolean}",
       "contentBasePublicPath": "should be {String|Array} (https://webpack.js.org/configuration/dev-server/#devservercontentbasepublicpath)",
       "serveIndex": "should be {Boolean} (https://webpack.js.org/configuration/dev-server/#devserverserveindex)",
       "serverSideRender": "should be {Boolean} (https://github.com/webpack/webpack-dev-middleware#serversiderender)",
